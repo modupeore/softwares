@@ -1,0 +1,152 @@
+do{ my $x = [
+  {
+    'INSTALL_BASE' => '/home/modupeore17/.perl5',
+    'ARGV' => []
+  },
+  {},
+  {
+    'xs_files' => undef,
+    'recommends' => {},
+    'perl' => '/usr/bin/perl',
+    'install_path' => {},
+    'dynamic_config' => 1,
+    'orig_dir' => '/home/modupeore17/.software/Bio-SamTools-1.43',
+    'pod_files' => undef,
+    'verbose' => undef,
+    'mymetafile' => 'MYMETA.yml',
+    'dist_author' => [
+      'Lincoln Stein <lincoln.stein@gmail.com>'
+    ],
+    'release_status' => 'stable',
+    'sign' => undef,
+    'module_name' => 'Bio::SamTools',
+    'test_file_exts' => [
+      '.t'
+    ],
+    'conflicts' => {},
+    'build_class' => 'MyModuleBuilder',
+    'libdoc_dirs' => [
+      'blib/lib',
+      'blib/arch'
+    ],
+    'installdirs' => 'site',
+    'scripts' => undef,
+    'bundle_inc' => [],
+    'test_files' => undef,
+    'get_options' => {},
+    'include_dirs' => [
+      '/home/modupeore17/.software/samtools-0.1.19'
+    ],
+    'extra_manify_args' => undef,
+    'base_dir' => '/home/modupeore17/.software/Bio-SamTools-1.43',
+    'install_sets' => {},
+    'prereq_action_types' => [
+      'requires',
+      'build_requires',
+      'test_requires',
+      'conflicts',
+      'recommends'
+    ],
+    'allow_pureperl' => 0,
+    'create_packlist' => 1,
+    'config' => undef,
+    'needs_compiler' => 1,
+    'pm_files' => undef,
+    'build_script' => 'Build',
+    'blib' => 'blib',
+    'cpan_client' => 'cpan',
+    'use_rcfile' => 1,
+    'prefix' => undef,
+    'metafile2' => 'META.json',
+    'PL_files' => undef,
+    'requires' => {
+      'Bio::Root::Version' => '1.006009001',
+      'perl' => '5.008'
+    },
+    'use_tap_harness' => 0,
+    '_have_c_compiler' => 1,
+    'build_requires' => {
+      'ExtUtils::CBuilder' => 0
+    },
+    'autosplit' => undef,
+    'config_dir' => '_build',
+    'allow_mb_mismatch' => 0,
+    'create_license' => undef,
+    'metafile' => 'META.yml',
+    'share_dir' => undef,
+    'debugger' => undef,
+    'debug' => undef,
+    'build_bat' => 0,
+    'install_base' => '/home/modupeore17/perl5',
+    'program_name' => undef,
+    'pureperl_only' => 0,
+    'html_css' => '',
+    'pollute' => undef,
+    'c_bin_files' => {
+      './bin/bam2bedgraph' => 'bin/bam2bedgraph'
+    },
+    'dist_suffix' => undef,
+    'magic_number' => undef,
+    'test_requires' => {},
+    'c_source' => 'c_bin',
+    'extra_linker_flags' => [
+      '-L/home/modupeore17/.software/samtools-0.1.19',
+      '-lbam',
+      '-lpthread',
+      '-lz'
+    ],
+    'create_makefile_pl' => undef,
+    'meta_add' => {},
+    'destdir' => undef,
+    'tap_harness_args' => {},
+    'license' => 'perl',
+    'install_base_relpaths' => {},
+    'prefix_relpaths' => {},
+    'mb_version' => '0.4204',
+    'script_files' => undef,
+    'build_elements' => [
+      'PL',
+      'support',
+      'pm',
+      'xs',
+      'share_dir',
+      'pod',
+      'script',
+      'c_bin'
+    ],
+    'meta_merge' => {},
+    '_added_to_INC' => [
+      '/home/modupeore17/.software/Bio-SamTools-1.43/_build/lib',
+      '/home/modupeore17/perl5/lib/perl5/5.18.2/x86_64-linux-gnu-thread-multi',
+      '/home/modupeore17/perl5/lib/perl5/5.18.2',
+      '/home/modupeore17/perl5/lib/perl5/x86_64-linux-gnu-thread-multi',
+      '/home/modupeore17/perl5/lib/perl5',
+      '/home/modupeore17/.software/vcftools_0.1.12b/lib/perl5/site_perl/',
+      '/home/modupeore17/.perl5/',
+      '/home/modupeore17/perl5/lib/perl5/5.18.1'
+    ],
+    'dist_version_from' => 'lib/Bio/DB/Sam.pm',
+    'auto_configure_requires' => 1,
+    'quiet' => undef,
+    'bundle_inc_preload' => [],
+    'dist_version' => '1.43',
+    'mymetafile2' => 'MYMETA.json',
+    'recursive_test_files' => undef,
+    'create_readme' => undef,
+    'extra_compiler_flags' => [
+      '-D_IOLIB=2',
+      '-D_FILE_OFFSET_BITS=64',
+      '-Wformat=0'
+    ],
+    'recurse_into' => [],
+    'original_prefix' => {},
+    'bindoc_dirs' => [
+      'blib/script'
+    ],
+    'configure_requires' => {},
+    'dist_name' => 'Bio-SamTools',
+    'has_config_data' => undef,
+    'dist_abstract' => 'Perl interface to SamTools library for DNA sequencing'
+  }
+];
+$x; }

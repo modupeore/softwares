@@ -1,0 +1,35 @@
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>PGDSpider2.jar</jar>
+  <outfile>/home/pascal/workspace/spider.build/PGDSpider2.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir></chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <customProcName>false</customProcName>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>/home/pascal/workspace/spider.build/spider48.ico</icon>
+  <jre>
+    <path></path>
+    <minVersion>1.6.0_01</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <opt>-Xmx1024m -Xms512M</opt>
+  </jre>
+  <versionInfo>
+    <fileVersion>2.0.0.3</fileVersion>
+    <txtFileVersion>PGDSpider 2</txtFileVersion>
+    <fileDescription>PGD Spider</fileDescription>
+    <copyright>(c) 2007 - 2011 by Heidi Lischer, University of Bern</copyright>
+    <productVersion>2.0.0.3</productVersion>
+    <txtProductVersion>PGD Spider 2.0.0.3</txtProductVersion>
+    <productName>PGD Spider</productName>
+    <companyName>University of Bern</companyName>
+    <internalName>PGD Spider 2.0.x.x</internalName>
+    <originalFilename>PGDSpider2.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
